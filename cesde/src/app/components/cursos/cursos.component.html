@@ -1,0 +1,53 @@
+<div class="contenedor-tabla">
+  <h2 class="titulo">Lista de Cursos</h2>
+  <table class="tabla-cursos">
+    <thead>
+      <tr>
+        <th>Id</th>
+        <th>Nombre</th>
+        <th>Descripción</th>
+        <th>Duración (semanas)</th>
+        <th>Precio</th>
+        <th>Fecha de Inicio</th>
+        <th>Docente</th>
+        <th>Acciones</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr *ngFor="let curso of cursos">
+        <td>{{ curso.id }}</td>
+        <td>{{ curso.nombre }}</td>
+        <td>{{ curso.descripcion }}</td>
+        <td>{{ curso.duracion }}</td>
+        <td>${{ curso.precio }}</td>
+        <td>{{ curso.fechaInicio }}</td>
+        <td>{{ curso.docenteId }}</td>
+        <td>
+          <button class="btn btn-sm btn-primary" (click)="editarCurso(curso)">Editar</button>
+          <button class="btn btn-sm btn-danger" (click)="eliminarCurso(curso.id)">Eliminar</button>
+        </td>
+      </tr>
+    </tbody>
+  </table>
+  <button class="btn btn-sm btn-success" (click)="agregarCurso()">Agregar Curso</button>
+</div>
+
+<div class="filtros">
+  <div>
+    <label>Buscar por ID:</label>
+    <input class="input-busqueda" />
+    <button>Buscar</button>
+  </div>
+
+  <div>
+    <label>Buscar por Duración:</label>
+    <input class="input-busqueda" />
+    <button>Buscar</button>
+  </div>
+
+  <div>
+    <label>Buscar por Docente:</label>
+    <input type="text" class="input-busqueda" />
+    <button>Buscar</button>
+  </div>
+</div>

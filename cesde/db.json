@@ -1,0 +1,138 @@
+{
+  "cursos": [
+    {
+      "id": "3",
+      "nombre": "Python para Ciencia de Datos",
+      "descripcion": "Análisis de datos con Pandas, NumPy y Matplotlib.",
+      "duracion": 10,
+      "precio": 300,
+      "fechaInicio": "2024-04-15T08:00:00",
+      "docenteId": 3
+    },
+    {
+      "id": "4",
+      "nombre": "Desarrollo Web con React",
+      "descripcion": "Fundamentos de React y aplicaciones dinámicas.",
+      "duracion": 7,
+      "precio": 230,
+      "fechaInicio": "2024-04-20T11:00:00",
+      "docenteId": 4
+    },
+    {
+      "id": "5",
+      "nombre": "Bases de Datos con PostgreSQL",
+      "descripcion": "Aprende a diseñar y manejar bases de datos relacionales.",
+      "duracion": 6,
+      "precio": 180,
+      "fechaInicio": "2024-05-01T13:00:00",
+      "docenteId": 5
+    },
+    {
+      "id": "6",
+      "nombre": "Desarrollo Full Stack con MERN",
+      "descripcion": "MongoDB, Express, React y Node.js en una sola aplicación.",
+      "duracion": 9,
+      "precio": 280,
+      "fechaInicio": "2024-05-05T15:00:00",
+      "docenteId": 6
+    },
+    {
+      "id": "7",
+      "nombre": "Ciberseguridad para principiantes",
+      "descripcion": "Conceptos clave de seguridad informática y hacking ético.",
+      "duracion": 8,
+      "precio": 260,
+      "fechaInicio": "2024-05-10T17:00:00",
+      "docenteId": 7
+    },
+    {
+      "id": "8",
+      "nombre": "Machine Learning con Python",
+      "descripcion": "Implementación de modelos de aprendizaje automático.",
+      "duracion": 10,
+      "precio": 320,
+      "fechaInicio": "2024-05-15T09:00:00",
+      "docenteId": 8
+    },
+    {
+      "id": "9",
+      "nombre": "Diseño UX/UI con Figma",
+      "descripcion": "Principios de diseño de experiencia de usuario e interfaces.",
+      "duracion": 5,
+      "precio": 150,
+      "fechaInicio": "2024-05-20T14:00:00",
+      "docenteId": 9
+    },
+    {
+      "id": "10",
+      "nombre": "Programación en C++",
+      "descripcion": "Curso avanzado de programación con C++.",
+      "duracion": 7,
+      "precio": 220,
+      "fechaInicio": "2024-05-25T16:00:00",
+      "docenteId": 10
+    }
+  ],
+  "docentes": [
+    {
+      "id": "1",
+      "nombre": "Juan Pérez",
+      "documento": "12345678",
+      "correo": "juan.perez@cesde.com"
+    },
+    {
+      "id": "2",
+      "nombre": "Ana Gómez",
+      "documento": "23456789",
+      "correo": "ana.gomez@cesde.com"
+    },
+    {
+      "id": "3",
+      "nombre": "Carlos Rodríguez",
+      "documento": "34567890",
+      "correo": "carlos.rodriguez@cesde.com"
+    },
+    {
+      "id": "4",
+      "nombre": "Sofía Ramírez",
+      "documento": "45678901",
+      "correo": "sofia.ramirez@cesde.com"
+    },
+    {
+      "id": "5",
+      "nombre": "Daniel Fernández",
+      "documento": "56789012",
+      "correo": "daniel.fernandez@cesde.com"
+    },
+    {
+      "id": "6",
+      "nombre": "Mariana López",
+      "documento": "67890123",
+      "correo": "mariana.lopez@cesde.com"
+    },
+    {
+      "id": "7",
+      "nombre": "José Martínez",
+      "documento": "78901234",
+      "correo": "jose.martinez@cesde.com"
+    },
+    {
+      "id": "8",
+      "nombre": "Laura Torres",
+      "documento": "89012345",
+      "correo": "laura.torres@cesde.com"
+    },
+    {
+      "id": "9",
+      "nombre": "Ricardo Castillo",
+      "documento": "90123456",
+      "correo": "ricardo.castillo@cesde.com"
+    },
+    {
+      "id": "10",
+      "nombre": "Elena Vargas",
+      "documento": "01234567",
+      "correo": "elena.vargas@cesde.com"
+    }
+  ]
+}

@@ -1,0 +1,66 @@
+.contenedor-tabla {
+  max-width: 900px;
+  margin: auto;
+  text-align: center;
+}
+
+.titulo {
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+.filtros {
+  display: flex;
+  justify-content: space-around;
+  margin-bottom: 15px;
+}
+
+.input-busqueda {
+  padding: 5px;
+  margin-left: 5px;
+  width: 120px;
+}
+
+.tabla-cursos {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 10px;
+}
+
+.tabla-cursos th,
+.tabla-cursos td {
+  border: 1px solid #ddd;
+  padding: 8px;
+  text-align: left;
+}
+
+.tabla-cursos th {
+  background-color: #f4f4f4;
+}
+
+.btn {
+  margin: 3px;
+  padding: 5px 10px;
+  border: none;
+  cursor: pointer;
+}
+
+.btn-secondary {
+  background-color: #6c757d;
+  color: white;
+}
+
+.btn-primary {
+  background-color: #007bff;
+  color: white;
+}
+
+.btn-danger {
+  background-color: #dc3545;
+  color: white;
+}
+
+.btn-success {
+  background-color: #28a745;
+  color: white;
+}
