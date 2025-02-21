@@ -2,9 +2,11 @@
 
 Instalar Angular
 ```bash
-npm install -g @angular/cli```
+npm install -g @angular/cli
+```
 
 Instalar json-server
+
 ```bash
 npm install json-server
 ```
